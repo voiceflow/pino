@@ -28,8 +28,8 @@ function pino (opts) {
   const serializers = opts.serializers || {}
   const serialize = Array.isArray(opts.browser.serialize)
     ? opts.browser.serialize.filter(function (k) {
-        return k !== '!stdSerializers.err'
-      })
+      return k !== '!stdSerializers.err'
+    })
     : opts.browser.serialize === true ? Object.keys(serializers) : false
   let stdErrSerialize = opts.browser.serialize
 
