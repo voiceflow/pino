@@ -1,12 +1,13 @@
 {
   "name": "@voiceflow/pino",
-  "version": "6.11.1",
+  "version": "6.11.2",
   "description": "super fast, all natural json logger",
   "main": "pino.js",
   "types": "pino.d.ts",
   "browser": "./browser.js",
   "files": [
     "pino.js",
+    "pino.d.ts",
     "bin.js",
     "browser.js",
     "pretty.js",
